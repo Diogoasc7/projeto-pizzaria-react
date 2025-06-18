@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import ReorderIcon from '@material-ui/icons/Reorder';
+import ReorderIcon from '@mui/icons-material/Reorder';
 import Logo from '../../assets/images/pizzaLogo.png';
 import * as S from './styles';
 
