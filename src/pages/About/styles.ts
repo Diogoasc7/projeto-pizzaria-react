@@ -1,39 +1,39 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const AboutContainer = styled.div`
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-`;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+`
 
 export const AboutTop = styled.div`
-    width: 100%;
-    height: 45%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-`;
+  width: 100%;
+  height: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+`
 
 export const AboutBottom = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  align-items: center;
+  margin-top: 50px;
+
+  h1 {
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    height: 30px;
     display: flex;
-    flex-direction: column;
-    height: 55%;
-    align-items: center;
-    margin-top: 50px;
+    justify-content: center;
+    transform: translateY(-40px);
+  }
 
-    h1 {
-        font-weight: 400;
-        font-size: 70px;
-        color: black;
-        height: 30px;
-        display: flex;
-        justify-content: center;
-        transform: translateY(-40px);
-    }
-
-    p {
-        width: 1200px;
-    }
-`;
+  p {
+    width: 1200px;
+  }
+`

@@ -1,8 +1,8 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import { BrowserRouter as Router } from 'react-router-dom';
-import AppRoutes from './routes';
+import React from 'react'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import { BrowserRouter as Router } from 'react-router-dom'
+import AppRoutes from './routes'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Footer />
       </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
